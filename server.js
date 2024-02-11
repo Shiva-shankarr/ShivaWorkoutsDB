@@ -17,7 +17,7 @@ app.use((req,res,next)=>{
 
 
 //routes
-app.use('/api/workouts',workoutsRouter)
+app.use('/',workoutsRouter)
 
 
 //connect to db
